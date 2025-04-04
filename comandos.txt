@@ -1,0 +1,33 @@
+$ pwd
+
+$ mkdir curso-git
+
+$ cd curso-git
+
+$ git init --initial-branch=main
+
+$ ls -a
+
+$ ls .git
+
+$ git config user.name 'Sara'
+
+$ git config user.email 'sara.araujo.lustosa@gmail.com'
+
+$ git config --list --local
+
+$ ls
+
+$ git status
+
+$ git add nome_matricula.txt
+
+$ git status
+
+$ git commit -m 'primeiro commit'
+
+$ git status
+
+$ git remote add origin-github https://github.com/sz-sara/curso-git-ifrn-ead.git
+
+$ git push -u origin-github main
